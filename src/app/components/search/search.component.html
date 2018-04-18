@@ -1,0 +1,4 @@
+<div class="search">
+  <input type="text" class="search__input" #searchValue (keyup.enter)='onSearch(searchValue, $event)' placeholder="Write a word">
+  <button class="search__button" (click)='onSearch(searchValue)'>Search</button>
+</div>

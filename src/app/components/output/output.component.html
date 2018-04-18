@@ -1,0 +1,5 @@
+<div class="output" *ngIf="gifs && gifs.length > 0 ">
+  <div *ngFor="let gif of gifs" class="output__img-holder">
+    <img src="{{gif.images.original.url}}" alt="{{gif.title}}" class="output__img" />
+  </div>
+</div>

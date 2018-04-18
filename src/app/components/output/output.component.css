@@ -1,0 +1,26 @@
+.output {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.output__img-holder {
+  flex: 0 35%;
+  margin: 2px;
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+}
+
+.output__img {
+  display: block;
+  height: auto;
+  width: 400px;
+}
